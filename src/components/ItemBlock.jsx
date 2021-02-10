@@ -1,7 +1,7 @@
 import React from 'react'
-import {Button} from './'
+import { Button } from '.'
 
-function PizzaBlock({ imageUrl, name, price }) {
+function ItemBlock({ imageUrl, name, price }) {
     return (
         <div className="item_block">
             <img src={imageUrl} alt="" />
@@ -24,4 +24,4 @@ function PizzaBlock({ imageUrl, name, price }) {
     )
 }
 
-export default PizzaBlock
+export default ItemBlock
